@@ -66,4 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // PayPal
+    // api('com.paypal.retail:here-sdk-release:2.0.0.201801@aar'){transitive=true}
+    api("com.paypal.retail:here-sdk-debug:2.0.0.201801@aar") { isTransitive = true }
 }
